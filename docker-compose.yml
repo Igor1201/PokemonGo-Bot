@@ -2,6 +2,8 @@ version: '2'
 services:
   bot1-pokego:
     build: .
+    ports:
+     - "4000:4000"
     volumes:
      - ./configs:/usr/src/app/configs
      - ./data:/usr/src/app/data
