@@ -7,7 +7,7 @@ services:
      - ./data:/usr/src/app/data
      - ./web:/usr/src/app/web
     environment:
-     - TZ=Etc/UTC
+     - TZ=America/Sao_Paulo
     stdin_open: true
     tty: true
   bot1-pokegows:
